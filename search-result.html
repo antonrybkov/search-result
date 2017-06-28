@@ -9,16 +9,41 @@
 
 <body>
 
-  <nav>
+  <div class="upper-bar">
     <div class="gregs-list"> Greg's List </div>
     <ul class="nav-ul">
-      <li class="nav-li"><a href="post.html">Post</a></li>
-      <li class="nav-li"><a href="account.html">Account</a></li>
+      <li class="nav-li"><a class="navi-txt" href="post.html">Post</a></li>
+      <li class="nav-li"><a class="navi-txt" href="account.html">Account</a></li>
     </ul>
-
-  </nav>
+  </div>
 
   <main>
+    <label> Search Jobs</label><br>
+    <input class="search-field" type="text" placeholder="Search software jobs"> </input>
+    <input class="search-button" type="image" src="images/magnifying-glass.png"></input>
+    <div class="navi-block">
+        <a class="arrow" href="prev.html">< prev</a>
+        <p class="arrow-txt">1 to 100 of 179</p>
+        <a class="arrow" href="next.html">next ></a>
+    </div>
+    <ul class="search-list">
+      <li class="search-item">
+        <p class="item-date">June 22</p>
+        <a class="item-ref" href="">Technical Project Manager</a>
+        <p class="item-location">Midtown East</p>
+      </li>
+      <li class="search-item">
+        <p class="item-date">June 21</p>
+        <a class="item-ref" href="">Frontend Developer</a>
+        <p class="item-location">SoHo</p>
+      </li>
+      <li class="search-item">
+        <p class="item-date">June 20</p>
+        <a class="item-ref" href="">Senior Python Developer / Cofounder</a>
+        <p class="item-location">Flatiron</p>
+      </li>
+    </ul>
+
   </main>
 
 </body>

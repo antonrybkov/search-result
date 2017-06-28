@@ -1,10 +1,12 @@
 * {
 font-family: Arial;
 }
+
 body {
   margin: 0;
   padding: 0;
 }
+
 .upper-bar {
   background-color: lightgray;
   position: fixed;
@@ -14,6 +16,7 @@ body {
   height: 50px;
   text-align: right;
 }
+
 .gregs-list {
   display: inline-block;
   position: absolute;
@@ -22,9 +25,11 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
 .nav-ul {
   display: inline-block;
 }
+
 .nav-li {
   display: inline-block;
   margin-top: -5px;
@@ -32,14 +37,17 @@ body {
   font-family: Arial;
   font-size: 20px;
 }
+
 .navi-txt {
   text-decoration: none;
 }
+
 main {
   margin-top: 70px;
   margin-left: 100px;
 }
-.search-field {
+
+#search-field {
   border: 1px lightgray solid;
   border-radius: 3px;
   display: inline-block;
@@ -47,7 +55,8 @@ main {
   height: 25px;
   margin-top: 10px;
 }
-.search-button {
+
+#search-button {
   border: 1px lightgray solid;
   border-radius: 3px;
   display: inline-block;
@@ -55,12 +64,22 @@ main {
   height: 27px;
   width: 27px;
 }
+
 .navi-block {
   border: 1px lightgray solid;
   border-radius: 3px;
   margin-top: 15px;
   width: 360px;
 }
+
+.navi-block ul {
+  padding-left: 0px;
+}
+.navi-block ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 .arrow {
   display: inline-block;
   font-size: 18px;
@@ -73,6 +92,7 @@ main {
   margin-bottom: 0px;
   text-decoration: none;
 }
+
 .arrow-txt {
   display: inline-block;
   font-size: 18px;
@@ -85,23 +105,28 @@ main {
   border-left: 1px lightgray solid;
   border-right: 1px lightgray solid;
 }
+
 .search-list {
   padding-left: 0;
 }
+
 .search-item {
   list-style: none;
   height: 30px;
 }
+
 .item-date {
   display: inline-block;
   color: gray;
   padding-right: 20px;
 }
+
 .item-ref {
   display:inline-block;
   padding-right: 20px;
   text-decoration: none;
 }
+
 .item-location {
   display:inline-block;
   color: gray;

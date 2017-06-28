@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Search Result</title>
   <meta name="description" content="Search Result">
   <link rel="stylesheet" type="text/css" href="styles/search-result.css">
 </head>
-
 <body>
-
-  <div class="upper-bar">
-    <div class="gregs-list"> Greg's List </div>
+  <nav class="upper-bar">
+    <header class="gregs-list">
+      <h1>Greg's List</h1>
+    </header>
     <ul class="nav-ul">
       <li class="nav-li"><a class="navi-txt" href="post.html">Post</a></li>
       <li class="nav-li"><a class="navi-txt" href="account.html">Account</a></li>
     </ul>
-  </div>
-
+  </nav>
+  <!-- Main content -->
   <main>
     <label> Search Jobs</label><br>
-    <input class="search-field" type="text" placeholder=" Search software jobs"> </input>
-    <input class="search-button" type="image" src="images/magnifying-glass.png"></input>
+    <input id="search-field" type="text" placeholder=" Search software jobs"></input>
+    <input id="search-button" type="image" src="images/magnifying-glass.png"></input>
     <nav class="navi-block">
-        <a class="arrow" href="prev.html">< prev</a>
-        <p class="arrow-txt">1 to 100 of 179</p>
-        <a class="arrow" href="next.html">next ></a>
+      <ul>
+        <li><a class="arrow" href="#">< prev</a></li>
+        <li><p class="arrow-txt">1 to 100 of 179</p></li>
+        <li><a class="arrow" href="#">next ></a></li>
+      </ul>
     </nav>
     <ul class="search-list">
       <li class="search-item">
         <p class="item-date">June 22</p>
-        <a class="item-ref" href="">Technical Project Manager</a>
+        <a class="item-ref" href="#">Technical Project Manager</a>
         <p class="item-location">Midtown East</p>
       </li>
       <li class="search-item">
         <p class="item-date">June 21</p>
-        <a class="item-ref" href="">Frontend Developer</a>
+        <a class="item-ref" href="#">Frontend Developer</a>
         <p class="item-location">SoHo</p>
       </li>
       <li class="search-item">
         <p class="item-date">June 20</p>
-        <a class="item-ref" href="">Senior Python Developer / Cofounder</a>
+        <a class="item-ref" href="#">Senior Python Developer / Cofounder</a>
         <p class="item-location">Flatiron</p>
       </li>
     </ul>
-
   </main>
-
 </body>
-
 </html>
